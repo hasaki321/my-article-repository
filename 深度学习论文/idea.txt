@@ -1,1 +1,6 @@
 1.能否使用VAE-RNN架构重新生成指定位置的分子
+2.把分子分成子结构作训练集重新生成新分子
+3.使用infogan结构生成指定性质的分子
+4.REINVENT->gnn+RL
+5.结合stable defusion生成分子
+6.结合图和smile特征生成分子

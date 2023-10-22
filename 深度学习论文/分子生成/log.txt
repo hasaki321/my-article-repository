@@ -1,0 +1,7 @@
+1.MCMG:
+	transformer 知识蒸馏
+2.REINVENT:
+	使用RL finetune Rnn，可以通过调整reward function来让模型生成训练集中没有的分子
+	（可以生成指定分子，即使从数据集中移除tanimoto相似性高的分子）
+3.rIOP:
+	REINVENT增强版，使用curriculum learning、diversity filter来逐步生成高复杂度多样化的分子，使用RL来使其生成目标分子
